@@ -927,8 +927,8 @@ Camera:
   m_GameObject: {fileID: 1693477757}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1275,6 +1275,10 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2120787888506172297, guid: 4a9a99ae385f789469aa60c9885833d9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 2120787888506172299, guid: 4a9a99ae385f789469aa60c9885833d9, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1322,6 +1326,22 @@ PrefabInstance:
     - target: {fileID: 2120787888506172311, guid: 4a9a99ae385f789469aa60c9885833d9, type: 3}
       propertyPath: m_Name
       value: ScoreTable
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275651903335078686, guid: 4a9a99ae385f789469aa60c9885833d9, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275651903335078686, guid: 4a9a99ae385f789469aa60c9885833d9, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275651903335078686, guid: 4a9a99ae385f789469aa60c9885833d9, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275651903335078686, guid: 4a9a99ae385f789469aa60c9885833d9, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190080
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a9a99ae385f789469aa60c9885833d9, type: 3}

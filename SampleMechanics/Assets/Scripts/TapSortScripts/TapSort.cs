@@ -25,6 +25,12 @@ public class TapSort : MonoBehaviour
         GameOverHandler.GameOver += HandleGameOver;
     }
 
+    private void OnDestroy()
+    {
+        //Unsubscribe Event
+        GameOverHandler.GameOver -= HandleGameOver;
+    }
+
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))

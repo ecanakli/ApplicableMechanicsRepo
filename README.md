@@ -1,5 +1,5 @@
 # ApplicableMechanicsRepo
-#### These Are Useful Mechanics Which Wroted By Me
+#### These Are Useful Mechanics Which Created By Me
 ```It Is Includes
 > Drag And Release Mechanic
 > Tap Drag To Sort Mechanic
